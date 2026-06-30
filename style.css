@@ -47,3 +47,33 @@ h1 {
 #restart-btn:hover {
   background: #9f8b77;
 }
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background: #cdc1b4;
+  border-radius: 6px;
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #776e65;
+  border-radius: 6px;
+}
+
+/* Tile colors based on value */
+[data-value="2"]    { background: #eee4da; }
+[data-value="4"]    { background: #ede0c8; }
+[data-value="8"]    { background: #f2b179; color: white; }
+[data-value="16"]   { background: #f59563; color: white; }
+[data-value="32"]   { background: #f67c5f; color: white; }
+[data-value="64"]   { background: #f65e3b; color: white; }
+[data-value="128"]  { background: #edcf72; color: white; font-size: 22px; }
+[data-value="256"]  { background: #edcc61; color: white; font-size: 22px; }
+[data-value="512"]  { background: #edc850; color: white; font-size: 22px; }
+[data-value="1024"] { background: #edc53f; color: white; font-size: 18px; }
+[data-value="2048"] { background: #edc22e; color: white; font-size: 18px; }
